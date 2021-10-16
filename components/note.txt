@@ -1,0 +1,2 @@
+components need to independnet and reuseable anywhere.
+整合於layout使用

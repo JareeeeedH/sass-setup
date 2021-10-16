@@ -1,0 +1,31 @@
+body{
+  font-weight: 400;
+  padding: 3rem;
+  line-height: 1.7;
+  color: $main-color;
+
+}
+
+.heading-primary{
+  text-transform: uppercase;
+  margin-bottom: 60px;
+  
+  // backface-visibility: hidden;
+
+
+  &-main {
+    display: block;
+    font-size: 60px;
+    letter-spacing: 10px;
+  
+    animation: moveInLeft 1s ease-in;
+  }
+
+  &-sub{
+    display: block;
+    font-size: 32px;
+    letter-spacing: 13px;
+  
+    animation: moveInRight 1s ease-in;
+  }
+}
